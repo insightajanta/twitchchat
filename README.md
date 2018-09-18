@@ -1,20 +1,27 @@
 # twitchchat
-
+I using <source of data> to solve problem <> 
 ## Python packages to install
-#####To use kafka from Python install this package
-sudo pip install kafka-python
-#####To use json like format - here used for kafka ingestion
-sudo pip install msgpack
-#####To use python-twitch-client
+##### To use kafka from Python install this package 
+```
+sudo pip install kafka-python 
+```
+##### To use json like format - here used for kafka ingestion 
+```
+sudo pip install msgpack 
+```
+##### To use python-twitch-client
+```
 sudo pip install python-twitch-client
+```
 - note you may need to install additional dependencies here.
 I had to pip install the following on my macbook
     - six
     - requests
     - configparser
-#####To use python cassandra
+##### To use python cassandra
+```
 sudo pip install cassandra-driver
-    
+```    
 
 ## Kafka installation
 download kafka and unzip:
